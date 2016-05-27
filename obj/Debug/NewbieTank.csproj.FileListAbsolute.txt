@@ -1,0 +1,6 @@
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\robocode.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\robocode.xml
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\NewbieTank_1.0.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\NewbieTank_1.0.pdb
+d:\documents\visual studio 2013\Projects\NewbieTank\obj\Debug\NewbieTank_1.0.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\obj\Debug\NewbieTank_1.0.pdb
