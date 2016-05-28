@@ -12,6 +12,7 @@ namespace NewbieTank
 {
     public class NewBieTank : AdvancedRobot
     {
+        Enemy enemy = new Enemy();
         private bool movingForward;
 
         // The main method of your robot containing robot logics
@@ -20,6 +21,8 @@ namespace NewbieTank
             // -- Initialization of the robot --
             BodyColor = (Color.Yellow);
             GunColor = (Color.Red);
+            //IsAdjustGunForRobotTurn = true;
+            //IsAdjustRadarForGunTurn = true;
             // Here we turn the robot to point upwards, and move the gun 90 degrees
             TurnLeft(Heading - 90);
             TurnGunRight(90);
@@ -56,7 +59,9 @@ namespace NewbieTank
         // Robot event handler, when the robot sees another robot
         public override void OnScannedRobot(ScannedRobotEvent e)
         {
-            // We fire the gun with bullet power = 1
+            enemy.update(e, this);
+            double Offset = rectify(enemy.direction - RadarHeadingRadians);
+            SetTurnRadarRightRadians(Offset * 1.5);
             smartFire(e.Distance);
         }
 
@@ -74,6 +79,15 @@ namespace NewbieTank
             {
                 Fire(3);
             }
+        }
+
+        public double rectify(double angle)
+        {
+            if (angle < -Math.PI)
+                angle += 2 * Math.PI;
+            if (angle > Math.PI)
+                angle -= 2 * Math.PI;
+            return angle;
         }
 
     }
