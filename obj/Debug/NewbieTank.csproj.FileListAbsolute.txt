@@ -1,0 +1,13 @@
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\robocode.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\robocode.xml
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\NewbieTank_1.0.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\bin\Debug\NewbieTank_1.0.pdb
+d:\documents\visual studio 2013\Projects\NewbieTank\obj\Debug\NewbieTank_1.0.dll
+d:\documents\visual studio 2013\Projects\NewbieTank\obj\Debug\NewbieTank_1.0.pdb
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\bin\Debug\NewbieTank_1.0.dll
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\bin\Debug\NewbieTank_1.0.pdb
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\bin\Debug\robocode.dll
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\bin\Debug\robocode.xml
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\obj\Debug\NewbieTank.csprojResolveAssemblyReference.cache
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\obj\Debug\NewbieTank_1.0.dll
+D:\TFSMaxwell\Tank Competition\RoboCode-master\RoboCode-master\obj\Debug\NewbieTank_1.0.pdb
