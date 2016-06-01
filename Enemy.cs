@@ -29,7 +29,7 @@ namespace NewbieTank
             this.energy = e.Energy;
             this.velocity = e.Velocity;
             this.distance = e.Distance;
-            direction = bearingRadian + me.HeadingRadians;
+            this.direction = bearingRadian + me.HeadingRadians;
             x = me.X + Math.Sin(direction) * distance;
             y = me.Y + Math.Cos(direction) * distance;
         }
