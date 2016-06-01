@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Java\jre1.8.0_92\bin\java.exe</StartProgram>
+    <StartArguments>-Ddebug=true -Xmx512M -cp libs/robocode.jar%3blibs/jni4net.j-0.8.7.0.jar robocode.Robocode -battle NewBieWithCrazy</StartArguments>
+  </PropertyGroup>
+</Project>
